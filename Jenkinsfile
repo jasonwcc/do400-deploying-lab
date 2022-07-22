@@ -11,6 +11,7 @@ pipeline {
  }
  }
  }
+
  stage("Build & Push Image") {
  steps {
  sh '''
