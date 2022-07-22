@@ -10,9 +10,8 @@ pipeline {
  sh "./mvnw verify"
  }
  }
- }
 
- stage("Build & Push Image") {
+ stage('Build & Push Image') {
  steps {
  sh '''
  ./mvnw quarkus:add-extension \
@@ -34,4 +33,5 @@ pipeline {
  }
  }
 
+ }
 }
