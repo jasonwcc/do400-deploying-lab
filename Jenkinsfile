@@ -32,3 +32,4 @@ java-alpine-openjdk11-jre:latest \
 }
 }
 }
+}
